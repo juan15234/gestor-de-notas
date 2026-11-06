@@ -10,24 +10,26 @@
 <main>
   <h1>📒 Gestor de notas</h1>
   <p class="sub">Registra las notas de tus estudiantes de forma rápida y sencilla.</p>
-
+ 
   <section class="card" id="login">
     <label for="docente">¿Cómo te llamas, docente?</label>
     <input id="docente" placeholder="Escribe tu nombre" autocomplete="name">
     <button id="entrar">Continuar</button>
   </section>
-
+ 
   <section id="panel" hidden>
     <div class="card">
       <p class="hello" id="saludo"></p>
       <small>Escribe el nombre de cada estudiante y sus 4 notas (de 0 a 5). El promedio se calcula solo. Desempeño: <b>Aprobado</b> con 3.5 o más, <b>Desaprobado</b> con menos de 3.5.</small>
     </div>
-
+ 
     <div id="estudiantes"></div>
+    <button id="agregar">＋ Agregar estudiante</button>
     <button class="sec" id="limpiar">Limpiar todo</button>
   </section>
 </main>
-
+ 
 <script src="script.js"></script>
 </body>
 </html>
+ 
